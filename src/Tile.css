@@ -1,0 +1,25 @@
+.tile {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile.clicked {
+    background: burlywood;
+}
+
+.tile.unclicked {
+    background: gray;
+    cursor: pointer;
+}
+
+.tile.unclicked:hover {
+    background: yellow;
+}
+
+.tile.bomb {
+    background: red;
+}
